@@ -1,6 +1,37 @@
 * {
   box-sizing: border-box; }
 
+#map-container {
+  padding: 0px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #ccc #ccc #999 #ccc;
+  -webkit-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+  -moz-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+  box-shadow: rgba(64, 64, 64, 0.1) 0 2px 5px;
+  max-width: 100%;
+  width: auto;
+}
+
+#map {
+  max-width: 100%;
+  width: auto;
+  height: 300px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+ 
 body {
   padding: 0;
   margin: 0;
